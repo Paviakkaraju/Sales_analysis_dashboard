@@ -40,10 +40,10 @@ with col1:
  st.metric(label="Total Revenue 💵 in 2017", value=total_rev, delta=10, delta_color="normal")
   
 with col2:
-    st.metric(label="Total Profit 💰 in 2017", value=total_rev, delta=10, delta_color="normal")
+    st.metric(label="Total Profit 💰 in 2017", value=total_profit, delta=10, delta_color="normal")
 
 with col3:
-    st.metric(label="Total Units Sold 📦 in 2017", value=total_rev, delta=10, delta_color="normal")
+    st.metric(label="Total Units Sold 📦 in 2017", value=total_prdts, delta=10, delta_color="normal")
     
 st.markdown("<hr style='border: 0.5px solid #ccc;'>", unsafe_allow_html=True)
 
